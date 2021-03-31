@@ -130,19 +130,21 @@ namespace PoHSyncEngine
 			while (true)
 			{
 				if (domainRequestQueue.Count() < domainSyncConfiguration.MaxDocGenerationThread)
-				{
-					var request = domainSyncConfiguration.DomainRequestGenerator.DomainRequestGeneratorFunc(domainSyncConfiguration.DomainName.Value);
+                {
+                    var maxCountToRequest = domainSyncConfiguration.MaxDocGenerationThread - domainRequestQueue.Count();
+					var domainPullRequest = new DomainPullRequest(domainSyncConfiguration.DomainName.Value,maxCountToRequest);
+					var request = domainSyncConfiguration.DomainRequestGenerator.DomainRequestGeneratorFunc(domainPullRequest);
 					if (request != null)
 					{
 						//Write to chanel the request
-						domainRequestQueue.Enqueue(request);
+						request.ForEach(r => domainRequestQueue.Enqueue(r));
 						//If load is more and max threads haven't been reached -- spawn new threads for processing the request from channel
 						LoadWorkerThreads(domainSyncConfiguration.DomainName.Value);
 					}
 				}
 				else
 				{
-                    Console.WriteLine("sleeping");
+                    //Console.WriteLine("sleeping");
 					Thread.Sleep(10);
 				}
 			}

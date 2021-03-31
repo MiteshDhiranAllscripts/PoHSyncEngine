@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MDHIRAN\\source\\repos\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine.csproj",
+      "projectUniqueName": "C:\\Users\\MDHIRAN\\source\\repos\\MiteshDhiran\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine.csproj",
       "projectName": "PoHSyncEngine",
-      "projectPath": "C:\\Users\\MDHIRAN\\source\\repos\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine.csproj",
+      "projectPath": "C:\\Users\\MDHIRAN\\source\\repos\\MiteshDhiran\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine.csproj",
       "packagesPath": "C:\\Users\\MDHIRAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MDHIRAN\\source\\repos\\PoHSyncEngine\\PoHSyncEngine\\obj\\",
+      "outputPath": "C:\\Users\\MDHIRAN\\source\\repos\\MiteshDhiran\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MDHIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",

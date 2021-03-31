@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MDHIRAN\\source\\repos\\PoHSyncEngine\\PoHSyncTestApp\\PoHSyncTestApp.csproj",
+      "projectUniqueName": "C:\\Users\\MDHIRAN\\source\\repos\\MiteshDhiran\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncTestApp\\PoHSyncTestApp.csproj",
       "projectName": "PoHSyncTestApp",
-      "projectPath": "C:\\Users\\MDHIRAN\\source\\repos\\PoHSyncEngine\\PoHSyncTestApp\\PoHSyncTestApp.csproj",
+      "projectPath": "C:\\Users\\MDHIRAN\\source\\repos\\MiteshDhiran\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncTestApp\\PoHSyncTestApp.csproj",
       "packagesPath": "C:\\Users\\MDHIRAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MDHIRAN\\source\\repos\\PoHSyncEngine\\PoHSyncTestApp\\obj\\",
+      "outputPath": "C:\\Users\\MDHIRAN\\source\\repos\\MiteshDhiran\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncTestApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MDHIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\MDHIRAN\\source\\repos\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine.csproj": {
-              "projectPath": "C:\\Users\\MDHIRAN\\source\\repos\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine.csproj"
+            "C:\\Users\\MDHIRAN\\source\\repos\\MiteshDhiran\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine.csproj": {
+              "projectPath": "C:\\Users\\MDHIRAN\\source\\repos\\MiteshDhiran\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine\\PoHSyncEngine.csproj"
             }
           }
         }

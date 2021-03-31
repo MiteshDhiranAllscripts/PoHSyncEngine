@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using PoHSyncEngine;
 
@@ -29,21 +30,26 @@ namespace PoHSyncTestApp
     {
         public int _counter =0;
         public string DomainName { get; private set; }
-        public Func<string,DomainSyncRequest> DomainRequestGeneratorFunc { get; }
+        public Func<DomainPullRequest,List<DomainSyncRequest>> DomainRequestGeneratorFunc { get; }
         public GenericDomainSyncRequestGenerator(string domainName)
         {
-            DomainRequestGeneratorFunc = (string domainName) =>
+            DomainRequestGeneratorFunc = (DomainPullRequest pullRequest) =>
             {
-                if (_counter > 5)
+                if (_counter > 15)
                 {
-                    Thread.Sleep(60000);
+                    Thread.Sleep(5000);
                 }
-                _counter++;
                 Thread.Sleep(200);
-                var retVal = new DomainSyncRequest(
-                        new DomainID(new NonEmptyString(domainName), new NonEmptyString(_counter.ToString()), typeof(int)),
+                List<DomainSyncRequest> retVal = new List<DomainSyncRequest>();
+                for (int i = 0; i < pullRequest.MaxNumberOfPullRequest; i++)
+                {
+                    _counter++;
+                    var req = new DomainSyncRequest(
+                        new DomainID(new NonEmptyString(domainName),new NonEmptyString(_counter.ToString()),typeof(int)),
                         DateTime.Now);
-                Console.WriteLine($"Request ID: {retVal.DomainID.Identity.Value}");
+                    Console.WriteLine($"Request ID: {req.DomainID.Identity.Value}");
+                    retVal.Add(req);
+                }
                 return retVal;
             };
         }

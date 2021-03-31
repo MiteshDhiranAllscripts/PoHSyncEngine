@@ -7,3 +7,12 @@ C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncEngine\bin\Debug\netcoreapp3.
 C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncEngine\bin\Debug\netcoreapp3.1\PoHSyncEngine.pdb
 C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncEngine\obj\Debug\netcoreapp3.1\PoHSyncEngine.dll
 C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncEngine\obj\Debug\netcoreapp3.1\PoHSyncEngine.pdb
+C:\Users\MDHIRAN\source\repos\MiteshDhiran\PoHSyncEngine\PoHSyncEngine\PoHSyncEngine\obj\Debug\netcoreapp3.1\PoHSyncEngine.csprojAssemblyReference.cache
+C:\Users\MDHIRAN\source\repos\MiteshDhiran\PoHSyncEngine\PoHSyncEngine\PoHSyncEngine\obj\Debug\netcoreapp3.1\PoHSyncEngine.AssemblyInfoInputs.cache
+C:\Users\MDHIRAN\source\repos\MiteshDhiran\PoHSyncEngine\PoHSyncEngine\PoHSyncEngine\obj\Debug\netcoreapp3.1\PoHSyncEngine.AssemblyInfo.cs
+C:\Users\MDHIRAN\source\repos\MiteshDhiran\PoHSyncEngine\PoHSyncEngine\PoHSyncEngine\obj\Debug\netcoreapp3.1\PoHSyncEngine.csproj.CoreCompileInputs.cache
+C:\Users\MDHIRAN\source\repos\MiteshDhiran\PoHSyncEngine\PoHSyncEngine\PoHSyncEngine\obj\Debug\netcoreapp3.1\PoHSyncEngine.dll
+C:\Users\MDHIRAN\source\repos\MiteshDhiran\PoHSyncEngine\PoHSyncEngine\PoHSyncEngine\obj\Debug\netcoreapp3.1\PoHSyncEngine.pdb
+C:\Users\MDHIRAN\source\repos\MiteshDhiran\PoHSyncEngine\PoHSyncEngine\PoHSyncEngine\bin\Debug\netcoreapp3.1\PoHSyncEngine.deps.json
+C:\Users\MDHIRAN\source\repos\MiteshDhiran\PoHSyncEngine\PoHSyncEngine\PoHSyncEngine\bin\Debug\netcoreapp3.1\PoHSyncEngine.dll
+C:\Users\MDHIRAN\source\repos\MiteshDhiran\PoHSyncEngine\PoHSyncEngine\PoHSyncEngine\bin\Debug\netcoreapp3.1\PoHSyncEngine.pdb

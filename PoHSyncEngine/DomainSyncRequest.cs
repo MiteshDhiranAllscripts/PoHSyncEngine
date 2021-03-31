@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 
 namespace PoHSyncEngine
@@ -77,9 +78,24 @@ namespace PoHSyncEngine
         }
     }
 
+    public class DomainPullRequest
+    {
+        public string DomainName { get; private set; }
+        public int MaxNumberOfPullRequest { get; private set; }
+
+        public DomainPullRequest(string domainName,int maxNumberOfPullRequest)
+        {
+            if (string.IsNullOrEmpty(domainName))
+                throw new ArgumentNullException(nameof(domainName));
+            if (maxNumberOfPullRequest < 1)
+                throw new ArgumentOutOfRangeException(nameof(maxNumberOfPullRequest)); 
+            DomainName = domainName;
+            MaxNumberOfPullRequest = maxNumberOfPullRequest;
+        }
+    }
     public interface IDomainSyncRequestGenerator
     {
-        Func<string,DomainSyncRequest> DomainRequestGeneratorFunc { get; }
+        Func<DomainPullRequest,List<DomainSyncRequest>> DomainRequestGeneratorFunc { get; }
     }
 
     public interface IDocumentGenerator

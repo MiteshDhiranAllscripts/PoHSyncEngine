@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PoHSyncTestApp/1.0.0": {
+        "dependencies": {
+          "PoHSyncEngine": "1.0.0"
+        },
+        "runtime": {
+          "PoHSyncTestApp.dll": {}
+        }
+      },
+      "PoHSyncEngine/1.0.0": {
+        "runtime": {
+          "PoHSyncEngine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PoHSyncTestApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PoHSyncEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

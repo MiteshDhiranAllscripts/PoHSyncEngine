@@ -1,0 +1,16 @@
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\bin\Debug\netcoreapp3.1\PoHSyncTestApp.exe
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\bin\Debug\netcoreapp3.1\PoHSyncTestApp.deps.json
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\bin\Debug\netcoreapp3.1\PoHSyncTestApp.runtimeconfig.json
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\bin\Debug\netcoreapp3.1\PoHSyncTestApp.runtimeconfig.dev.json
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\bin\Debug\netcoreapp3.1\PoHSyncTestApp.dll
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\bin\Debug\netcoreapp3.1\PoHSyncTestApp.pdb
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\obj\Debug\netcoreapp3.1\PoHSyncTestApp.csprojAssemblyReference.cache
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\obj\Debug\netcoreapp3.1\PoHSyncTestApp.AssemblyInfoInputs.cache
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\obj\Debug\netcoreapp3.1\PoHSyncTestApp.AssemblyInfo.cs
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\obj\Debug\netcoreapp3.1\PoHSyncTestApp.csproj.CoreCompileInputs.cache
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\obj\Debug\netcoreapp3.1\PoHSyncTestApp.dll
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\obj\Debug\netcoreapp3.1\PoHSyncTestApp.pdb
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\obj\Debug\netcoreapp3.1\PoHSyncTestApp.genruntimeconfig.cache
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\bin\Debug\netcoreapp3.1\PoHSyncEngine.dll
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\bin\Debug\netcoreapp3.1\PoHSyncEngine.pdb
+C:\Users\MDHIRAN\source\repos\PoHSyncEngine\PoHSyncTestApp\obj\Debug\netcoreapp3.1\PoHSyncTestApp.csproj.CopyComplete
